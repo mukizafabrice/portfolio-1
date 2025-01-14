@@ -328,7 +328,7 @@ footer {
   width: 70%;
 }
 .skills .skills-content .right .javascript::before {
-  width: 50%;
+  width: 80%;
 }
 .skills .skills-content .right .php::before {
   width: 70%;
@@ -534,6 +534,83 @@ footer span a:hover {
   pointer-events: auto;
 }
 
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.icon {
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* LinkedIn Icon */
+.icon.linkedin {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.icon.linkedin:hover {
+  color: #005582; /* Darker blue */
+}
+
+/* Instagram Icon */
+.icon.instagram {
+  color: #e1306c; /* Instagram pink */
+}
+
+.icon.instagram:hover {
+  color: #c0265d; /* Darker pink */
+}
+
+/* GitHub Icon */
+.icon.github {
+  color: #ffffff; /* White for GitHub */
+}
+
+.icon.github:hover {
+  color: #6e5494; /* GitHub purple */
+}
+
+/* Twitter Icon */
+.icon.twitter {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.icon.twitter:hover {
+  color: #1778b5; /* Darker blue */
+}
+
+/* Facebook Icon */
+.icon.facebook {
+  color: #4267b2; /* Facebook blue */
+}
+
+.icon.facebook:hover {
+  color: #2d4c8a; /* Darker blue */
+}
+
+footer span {
+  font-size: 14px;
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
+
 @media (max-width: 1300px) {
   .home .max-width {
     margin-left: 0;
@@ -624,6 +701,18 @@ footer span a:hover {
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+  }
+  .home-text {
+    width: 85%;
+  }
+}
+@media (max-width: 760px) {
+  .home-text {
+    width: 92%;
+  }
+  .home-title {
+    font-size: 15px;
+    display: inline-block;
   }
 }
 
