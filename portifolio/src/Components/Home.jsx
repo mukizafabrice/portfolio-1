@@ -230,46 +230,47 @@ const Home = () => {
       </section>
 
       {/* service */}
-
       <section className="services" id="services">
         <div className="max-width">
           <h2 className="title">my services</h2>
           <div className="services-content">
             <div className="card">
               <div className="box">
-                <i className="fas fa-paint-brush"></i>
-                <div className="text">Web Design</div>
+                <i className="fas fa-code"></i>
+                <div className="text">Frontend Development</div>
                 <p>
-                  Designing responsive, user-friendly websites that are visually
-                  appealing and optimized for all devices.
+                  Building responsive and interactive user interfaces using
+                  modern frameworks and libraries to ensure seamless user
+                  experiences.
                 </p>
               </div>
             </div>
 
             <div className="card">
               <div className="box">
-                <i className="fas fa-chart-line"></i>
-                <div className="text">Advertising</div>
+                <i className="fas fa-database"></i>
+                <div className="text">Backend Development</div>
                 <p>
-                  Developing creative and effective campaigns that enhance brand
-                  visibility and drive customer engagement.
+                  Developing robust and scalable server-side applications,
+                  ensuring secure and efficient data handling and processing.
                 </p>
               </div>
             </div>
 
             <div className="card">
               <div className="box">
-                <i className="fas fa-paint-brush"></i>
-                <div className="text">App Design</div>
+                <i className="fas fa-mobile-alt"></i>
+                <div className="text">Full Stack Development</div>
                 <p>
-                  Creating intuitive and visually compelling apps with a strong
-                  focus on user experience and functionality.
+                  Combining expertise in both frontend and backend development
+                  to deliver complete and fully functional web solutions.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       {/* skills  */}
       <section className="skills" id="skills">
         <div className="max-width">
