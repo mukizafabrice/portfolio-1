@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Aboutimage from "../assets/about-image.jpg";
+import emailjs from "emailjs-com";
 import {
   FaLinkedin,
   FaInstagram,
@@ -95,6 +96,7 @@ const Home = () => {
         {
           from_name: formData.name,
           from_email: formData.email, // This is where you set the "from" email
+          from_subject: formData.subject,
           message: formData.message,
         },
         "dsjyMGgVIBMV63_-S"
@@ -378,6 +380,10 @@ const Home = () => {
             </div>
 
             <div className="clumn right">
+              <div>
+                {error && <p className="message error">{error}</p>}
+                {success && <p className="message success">{success}</p>}
+              </div>
               <div className="text">Message me</div>
               <form onSubmit={handleSubmit} method="post">
                 <div className="fields">

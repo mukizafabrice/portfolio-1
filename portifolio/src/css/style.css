@@ -534,6 +534,20 @@ footer span a:hover {
   pointer-events: auto;
 }
 
+/* errror */
+.message {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.message.error {
+  color: #ef4444; /* Tailwind's red-500 equivalent */
+}
+
+.message.success {
+  color: #10b981; /* Tailwind's green-500 equivalent */
+}
+
 footer {
   background-color: #000;
   color: #fff;
